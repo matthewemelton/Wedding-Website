@@ -1,0 +1,252 @@
+body{
+    background-color: #F4F2F3;
+}
+
+h1, h2, h3, p, button{
+    font-family: 'Playfair Display', serif;
+}
+
+#landing-page{
+    width: 100vw;
+    height: 125vh;
+}
+
+#about-section{
+    width: 100vw;
+    height: 100%;
+}
+
+#about-header-container{
+    text-align: left;
+    width: 35%;
+    border-bottom: solid 3px #c69c6d;
+    margin: 15% 0 10% 10%;
+}
+
+
+
+.circleImage{
+    border-radius: 50%;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.side-navbar{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.side-navbar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+div{
+    /*border: red solid 2px;*/
+}
+
+
+#get-info-container{
+    margin: 10vh auto;
+    padding: 15vh 0;
+    width: 100vw;
+    text-align: center;
+}
+
+#get-info-button{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    border: solid 3px #c69c6d;
+    background-color: #c69c6d;
+    width: clamp(75px, 200px, 275px);
+    height: clamp(25px, 60px, 95px);
+    margin: 2vh auto;
+    font-size: larger;
+    transition: background-color 300ms ease;
+}
+
+#get-info-button:hover{
+    background-color: white;
+}
+
+div.about-text-container{
+    text-align: left;
+    margin: 2.5% 0 10% 10%;
+
+}
+
+div.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.about-image-container{
+
+}
+
+img.about-image{
+    max-height: 500px;
+    max-width: 450px;
+    margin: 10% 2.5% 10% 17.5%;
+}
+h1.about-header-text{
+
+}
+
+div.header-container{
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-top: 1%;
+    background-color: rgba(211, 184, 140, 0.75);
+    position: sticky;
+}
+
+div.Background-Image-Container{
+    width: 100%;
+    height: 100vh;
+}
+
+img.header-img{
+    max-height: 8vh;
+    margin: 2.5px 0 2.5px 0;
+
+}
+
+img.main-background-img{
+    width: 100vw;
+    height: 100vh;
+}
+
+div.nav-container{
+    width: 100vw;
+}
+
+button.nav-button{
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    margin: 0 2% 0 2%;
+    transition: background-color;
+    transition-duration: 0.7s;
+}
+
+button.nav-button:hover{
+    background-color: rgba(30, 33, 37, 0.75);
+}
+
+img.title-image{
+    max-width: none;
+    max-height: 15vh;
+    margin-top: 55vh;
+
+}
+
+div.rightImage{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+div.leftImage{
+    margin-right: auto;
+    margin-left: 0;
+}
+
+div.title-container{
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("/Assets/SunBeam.JPEG");
+    background-position: center center;
+    background-size: cover;
+}
+
+div.title-button-container{
+    width: 100%;
+}
+
+#RSVP-Button{
+    margin-left: 10%;
+}
+
+#Registry-Button{
+    margin-left: 30%;
+}
+
+button.title-button, button.title-button:visited{
+    font-family: "Bodoni 72";
+    font-size: larger;
+    text-decoration: none;
+    border: 2px solid #E36F4F;
+    background-color: #E36F4F;
+    color: #F4F2F3;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    transition: background-color;
+    transition-duration: 0.5s;
+}
+
+button.title-button:hover{
+    background-color: #69BADD;
+    border: solid 2px #69BADD;
+
+}
+
+div.divider-container{
+    width: 100vw;
+    text-align: center;
+    margin: 15vh auto;
+}
+
+div.Detail-Card-Container{
+}
+
+div.Detail-Card-Background{
+    background-color: #c69c6d;
+    width: 200px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+
+}
+
+div.Details-Header-Container{
+    text-align: left;
+    width: 65%;
+    border-bottom: solid 3px #c69c6d;
+}
+
+.details-row{
+    margin-top: 30vh;
+}
+
+h1.Detail-Header-Text{
+    font-family: Academy Engraved LET, serif;
+
+}
+
+img.divider-image{
+    height: 6vh;
+    width: 60vw;
+}
+
+img.card-image{
+    max-height: 450px;
+    max-width: 354px;
+}
+
+@media screen and (max-width: 750px) {
+
+}
