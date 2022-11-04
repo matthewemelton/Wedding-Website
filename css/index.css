@@ -205,9 +205,13 @@ button.title-button:hover{
 }
 
 div.divider-container{
-    width: 100vw;
+    width: 60vw;
+    height: 150px;
     text-align: center;
     margin: 15vh auto;
+    background-image: url(../Assets/Divider-Large.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 div.Detail-Card-Container{
@@ -248,5 +252,11 @@ img.card-image{
 }
 
 @media screen and (max-width: 750px) {
-
+    .divider-container{
+        background-image: url(../Assets/Divider-Small.png);
+        margin: 5vh auto;
+    }
+    .about-image-container{
+        width: 85vw;
+    }
 }
