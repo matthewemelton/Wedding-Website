@@ -56,7 +56,7 @@ div{
 #get-info-container{
     margin: 10vh auto;
     padding: 15vh 0;
-    width: 100vw;
+    width: 99vw;
     text-align: center;
 }
 
@@ -146,7 +146,7 @@ button.nav-button:hover{
 }
 
 img.title-image{
-    max-width: none;
+    max-width: 98vw;
     max-height: 15vh;
     margin-top: 55vh;
 
@@ -204,7 +204,7 @@ button.title-button:hover{
 
 }
 
-div.divider-container{
+.divider-container{
     width: 60vw;
     height: 150px;
     text-align: center;
@@ -254,9 +254,17 @@ img.card-image{
 @media screen and (max-width: 750px) {
     .divider-container{
         background-image: url(../Assets/Divider-Small.png);
+        width: 99vw;
+        height: 130px;
         margin: 5vh auto;
     }
     .about-image-container{
-        width: 85vw;
+        text-align: center;
+    }
+    .about-image{
+        width: 65vw;
+    }
+    .about-text-container{
+        margin: auto;
     }
 }
