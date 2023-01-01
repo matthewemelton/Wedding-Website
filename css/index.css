@@ -16,7 +16,7 @@ h1, h2, h3, p, button{
     height: 100%;
 }
 
-#about-header-container{
+.section-header-container{
     text-align: left;
     width: 35%;
     border-bottom: solid 3px #c69c6d;
@@ -251,10 +251,38 @@ img.card-image{
     max-width: 354px;
 }
 
+.detail-header-rotated{
+    rotate: 90deg;
+    border-bottom: solid 2px #c69c6d;
+    margin-left: 5%;
+}
+
+.detail-body-text-container{
+    margin: 0 40% 0 0;
+}
+
+#GPS-Image{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+}
+
+.zstack {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.zstack > * {
+    grid-area: 1/1/1/1;
+}
+
+.detail-card{
+
+}
 @media screen and (max-width: 750px) {
     .divider-container{
         background-image: url(../Assets/Divider-Small.png);
-        width: 99vw;
+        width: 85vw;
         height: 130px;
         margin: 5vh auto;
     }
@@ -266,5 +294,12 @@ img.card-image{
     }
     .about-text-container{
         margin: auto;
+    }
+    #GPS-Image{
+        height: 35vw;
+        width: 35vw;
+    }
+    .detail-card{
+        width: 100vw;;
     }
 }
