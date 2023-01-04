@@ -2,6 +2,10 @@ body{
     background-color: #F4F2F3;
 }
 
+div{
+    /*border: solid 2px red*/
+}
+
 h1, h2, h3, p, button{
     font-family: 'Playfair Display', serif;
 }
@@ -252,19 +256,23 @@ img.card-image{
 }
 
 .detail-header-rotated{
+    text-align: left;
     rotate: 90deg;
     border-bottom: solid 2px #c69c6d;
-    margin-left: 5%;
+    margin-left: 30%;
+    width: 25vh
 }
 
 .detail-body-text-container{
-    margin: 0 40% 0 0;
+    text-align: center;
+    margin: auto 0;
 }
 
 #GPS-Image{
     height: 10vw;
     width: 10vw;
     border-radius: 50%;
+    margin: 5% auto 1% auto;
 }
 
 .zstack {
@@ -277,8 +285,40 @@ img.card-image{
 }
 
 .detail-card{
-
+    text-align: center;
 }
+
+#Dress-code-image{
+    height: 22vh;
+    width: 12vw;
+    margin: 5% auto 1% auto;
+}
+
+#detail-block-left{
+    background-color: rgba(198, 156, 109, 0.65);
+    width: 33vw;
+    height: 50vh;
+}
+
+#detail-block-middle{
+    width: 33vw;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+#detail-block-right{
+    width: 33vw;
+    height: 50vh;
+    background-color: rgba(198, 156, 109, 0.65);
+    box-shadow: 10px 10px 5px white;
+}
+
+#Registry-Section{
+    height: 40vh;
+    width: 100vw;
+}
+
 @media screen and (max-width: 750px) {
     .divider-container{
         background-image: url(../Assets/Divider-Small.png);
@@ -300,6 +340,6 @@ img.card-image{
         width: 35vw;
     }
     .detail-card{
-        width: 100vw;;
+        width: 100vw;
     }
 }
