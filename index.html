@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Matthew and Jessica</title>
@@ -34,43 +34,50 @@
                     <img class="about-image" src="Assets/About.png" alt="About.png"/>
                 </div>
             </div>
-        <div class="divider-container"></div>
-        <div class="section-header-container" style="margin: -3% 50% 0 5%; width: 18vw;">
-            <h1>The Details</h1>
-        </div>
-        <div class="row" style="margin: 2vh auto 0 auto;">
-                <div class="col-sm-4" id="detail-block-left">
-                    <div class="detail-body-text-container">
-                        <h1 style="margin-top: 5%">Where</h1>
-                        <img id="GPS-Image" src="Assets/GPS.png"/>
-                        <h3>Hazelnut Farms</h3>
-                        <address>816 Eastwood Fisherville Rd, Louisville, KY 40023</address>
-                    </div>
-                </div>
-                <div class="col-sm-4" id="detail-block-middle">
-                        <h1 style="margin-top: 5%; color: white;">When</h1>
-                    <div style="margin-top: 15%;" class="detail-body-text-container">
-                        <h3 style="margin-top: 5%; color: white;">Friday June 23
-                            <span style="font-size: small;">rd</span>
-                            2023
-                        </h3>
-                        <h3 style="color: white; font-size: x-large; margin-top: 25px; ">Ceremony</h3>
-                        <p style="color: white;">6:30 pm</p>
-                        <p style="color: white;">Reception to follow</p>
-                    </div>
-                </div>
-                <div class="col-sm-4" id="detail-block-right">
-                    <div class="detail-body-text-container">
-                        <h1 style="margin-top: 5%;">What to Wear</h1>
-                        <img id="Dress-code-image" src="Assets/Dress%20Code.png">
-                        <h3>Semi-Formal</h3>
-                        <p style="font-weight: normal;">This is not a dress code, we just have found it helpful to give you an idea of the occasion.</p>
-                    </div>
-                </div>
-        </div>
+        <div class="divider-container" style="margin-bottom: -10vh;"></div>
     </section>
     <section id="Registry-Section">
-
+        <div class="row" style="margin: 0 auto 0 auto;">
+            <div class="col-md-4 description-block">
+                <h2 class="description-block-header" style="font-weight: 100;">Where</h2>
+                <img id="GPS-Image" src="Assets/GPS.png" alt="GPS.png">
+                <p style="color: white;">Hazelnut Farms</p>
+                <p style="color: white;">816 Eastwood Fisherville Rd, Louisville, KY 40023</p>
+            </div>
+            <div class="col-md-4 description-block">
+                <h2 class="description-block-header" style="font-weight: 100;">When</h2>
+                <div style="margin-top: 8vh;">
+                    <h3 style="color: white; margin: auto 0;">Ceremony</h3>
+                    <p style="color: white;">6:30-7pm</p>
+                    <p style="color: white;">Followed by a Cocktail hour with reception to follow</p>
+                </div>
+            </div>
+            <div class="col-md-4 description-block">
+                <h2 class="description-block-header" style="font-weight: 100;">What to Wear</h2>
+                <img id="Dress-code-image" src="Assets/Dress%20Code.png" alt="Dress Code.png">
+                <h3 style="color: white;">Semi-Formal</h3>
+                <p style="color: white;">This is not a requirement, just a suggestion to help you to know the vibe for the evening.</p>
+            </div>
+        </div>
+        <div class="row" style="margin: auto 0 auto 0; min-height: 60vh;">
+            <div class="col-md-7 align-items-center" style="display: flex;">
+                <div class="align-middle" style="width: 100%; display: inline-block;">
+                    <h2 style="margin: 0 auto; color: white; border-bottom: solid 1px #c69c6d; width: fit-content">Our Registry</h2>
+                    <p style="color: white;">We are registered at the following places.</p>
+                </div>
+            </div>
+            <div class="col-md-5 align-middle" style="margin: auto 0; border-left: #c69c6d solid 1px;">
+                <div class="wrap">
+                    <button class="button">Williams Sonoma</button>
+                </div>
+                <div class="wrap">
+                    <button class="button">Pottery Barn</button>
+                </div>
+                <div class="wrap">
+                    <button class="button">Macy's</button>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
