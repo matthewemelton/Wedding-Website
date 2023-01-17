@@ -10,6 +10,7 @@ h1, h2, h3, p, button{
     font-family: 'Playfair Display', serif;
 }
 
+
 #landing-page{
     width: 100vw;
     height: 125vh;
@@ -320,14 +321,22 @@ img.card-image{
 
 .description-block{
     text-align: center;
+    background-color: #c69c6d;
+    border-radius: 10px;
+    /*box-shadow: 0 4px 8px 0 rgba(198, 156, 109, 0.2), 0 6px 20px 0 rgba(198, 156, 109, 0.19);*/
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.18), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+    height: 55vh;
+    margin-top: 5vh;
 }
 
 .description-block-header{
     margin: 5vh auto 0 auto;
     width: fit-content;
-    border-bottom: 1px solid #c69c6d;
+    border-bottom: 2px solid #2c2825;
     color: white;
-    font-weight: lighter;
+    box-shadow: 0 0 300px #c69c6d;
+    font-weight: 200;
+    font-family: 'Snell Roundhand', cursive;
 }
 
 button.registry-button{
@@ -388,6 +397,11 @@ html, body {
     transform: translateY(-7px);
 }
 
+.registry-buttons{
+    border-top: none;
+    border-left: #c69c6d solid 1px;
+}
+
 @media screen and (max-width: 750px) {
     .divider-container{
         background-image: url(../Assets/Divider-Small.png);
@@ -408,7 +422,19 @@ html, body {
         height: 35vw;
         width: 35vw;
     }
+    #Dress-code-image{
+        width: 40vw;
+    }
     .detail-card{
         width: 100vw;
+    }
+    .description-block{
+        margin: 20px;
+    }
+    .button{
+        width: 65vw;
+    }
+    .registry-buttons{
+        border-left: none;
     }
 }
