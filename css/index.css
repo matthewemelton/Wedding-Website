@@ -333,7 +333,7 @@ img.card-image{
     margin: 5vh auto 0 auto;
     width: fit-content;
     border-bottom: 2px solid #2c2825;
-    color: white;
+    /*color: white;*/
     box-shadow: 0 0 300px #c69c6d;
     font-weight: 200;
     font-family: 'Snell Roundhand', cursive;
