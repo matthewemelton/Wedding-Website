@@ -1,0 +1,13 @@
+#RSVP-form{
+    margin: 0 auto;
+    width: 45vw;
+    height: 90vh;
+    background-image: linear-gradient(45deg, #c69c6d, #e2c9ac);
+    border-radius: 5px;
+}
+
+#back-button{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
