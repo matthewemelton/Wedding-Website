@@ -319,6 +319,12 @@ img.card-image{
     background-image: linear-gradient(180deg, #2c2825, #302c2a, #393534);
 }
 
+#Description-Card-Container{
+    height: 100%;
+    width:100%;
+    margin: 0 auto;
+}
+
 .description-block{
     text-align: center;
     background-color: #c69c6d;
@@ -390,6 +396,7 @@ html, body {
     margin: 1vh auto;
 }
 
+
 .button:hover {
     background-color: #c69c6d;
     box-shadow: 0px 15px 20px rgba(198, 156, 109, 0.4);
@@ -436,5 +443,9 @@ html, body {
     }
     .registry-buttons{
         border-left: none;
+    }
+    #Description-Card-Container{
+        width: 80%;
+        padding-bottom: 10%;
     }
 }
